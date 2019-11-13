@@ -1,0 +1,42 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+
+.menu{
+    width:100%;
+    padding:0px;
+    margin-top:0px;
+    overflow: hidden;
+    background-color:rgba(0,0,0,0.7);
+    position:fixed;
+    top:0;
+}
+
+.menu ul{
+    margin-top:0px;
+    padding:0px;
+    list-style-type: none;
+}
+
+.menu a{
+    font-family:'Raleway';
+    display:block;
+    margin-top:0px;
+    float:left;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size:17px;
+    transition: 0.5s;
+}
+
+.menu a.active{
+    background-color:#333;
+}
+
+.menu a:hover{
+    color:#333;
+}

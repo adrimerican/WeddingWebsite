@@ -1,0 +1,207 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+/* Main Page */
+*{
+    padding:0; 
+    margin:0;
+}
+header {
+    
+}
+body{
+    height:500vh;
+    background-color:#FFF9F5;
+}
+
+.top{
+    background-image:url(monet-malatino-wedding-thumb.jpg);
+    width:100%;
+    height:90%;
+    background-size:cover;
+    position:absolute;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.top h1{
+    font-size:50px;
+    margin-top:70px;
+    text-align:center;
+    color:whitesmoke;
+    font-family:"Times New Roman";
+    font-weight:10;
+}
+.items{
+    margin-top:700px;
+    margin-left:400px;
+    margin-right:400px;
+    text-align:center;
+}
+
+.description{
+    border-radius:5%; 
+    display:inline-block;
+    position:absolute;
+    top:20%;
+    left:15%;
+    transform:translateX(-50%,-50%);
+    width:30%;
+    height:30%;
+    background-image:url(../images/4.jpg);
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+.description1{
+    border-radius:5%; 
+    display:inline-block;
+    background-color:#ffff;
+    position:absolute;
+    top:20%;
+    left:55%;
+    transform:translateX(-50%,-50%);
+    width:30%;
+    min-height:30%;
+    box-shadow:5px 5px 5px 5px;
+    
+}
+
+.description2{  
+    border-radius:5%;  
+    background-color:#ffff;
+    position:absolute;
+    top:60%;
+    left:15%;
+    transform:translateX(-50%,-50%);
+    width:30%;
+    height:30%;
+}
+.description3{
+    border-radius:5%; 
+    display:inline-block;
+    background-color:#ffff;
+    position:absolute;
+    top:60%;
+    left:55%;
+    transform:translateX(-50%,-50%);
+    width:30%;
+    height:30%;
+    background-image:url(../images/6.jpg);
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+.items h1{
+    text-align:center;
+    padding-top:10px;
+    font-family:"Raleway";
+}
+
+.items p{
+    font-family:"Raleway";
+    text-align:justify;
+    font-size:2vh;
+    padding-top:15px;
+    margin-left:10%;
+    margin-right:10%;
+    overflow:hidden;
+    word-wrap:break-word;
+    padding: 10px 20px;
+
+}
+
+body{
+    background-color:#FFF9F5;
+  }
+  .main{
+    font-family:'Raleway';
+    margin-left:400px;
+    margin-right:400px;
+    margin-top:200px;
+    text-align:center;
+  }
+  h1{
+    margin-top:70px;
+    text-align:center;
+  }
+  
+  .box1{
+      border-radius:5%;
+      display:inline-block;
+      position:absolute;
+      top:20%;
+      left:15%;
+      transform:translateX(-50%,-50%);
+      width:30%;
+      height:40%;
+      background-image:url(../images/7.jpg);
+      background-size:100% 100%;
+      background-repeat:no-repeat;
+  }
+  
+  .box1 h3,p{
+    margin-top:10px;
+  }
+  
+  .box2 h3,p{
+    margin-top:10px;
+  }
+  .box2{
+      border-radius:5%; 
+      display:inline-block;
+      background-color:#ffff;
+      position:absolute;
+      top:20%;
+      left:55%;
+      transform:translateX(-50%,-50%);
+      width:30%;
+      min-height:40%;
+      
+  }
+  
+  .box3{ 
+      border-radius:5%;  
+      background-color:#ffff;
+      position:absolute;
+      top:60%;
+      left:15%;
+      transform:translateX(-50%,-50%);
+      width:30%;
+      height:30%;
+  }
+  .box4{
+      display:inline-block;
+      background-color:#ffff;
+      position:absolute;
+      top:60%;
+      left:55%;
+      transform:translateX(-50%,-50%);
+      width:30%;
+      height:30%;
+      background-image:url(../images/7.jpg);
+      background-size: 100% 100%;
+      background-repeat:no-repeat;
+  }
+  
+  h1{
+      text-align:center;
+      padding-top:10px;
+      font-family:"Raleway";
+  }
+  
+  p{
+      font-family:"Raleway";
+      text-align:justify;
+      font-size:2vh;
+      padding-top:15px;
+      margin-left:10%;
+      margin-right:10%;
+      overflow:hidden;
+      word-wrap:break-word;
+      padding: 10px 20px;
+  
+  }

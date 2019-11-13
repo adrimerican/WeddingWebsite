@@ -1,0 +1,125 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+*{margin:0; padding:0;}
+
+body{
+  background-color:#FFF9F5;
+}
+.main{
+  font-family:'Raleway';
+  margin-left:400px;
+  margin-right:400px;
+  margin-top:200px;
+  text-align:center;
+}
+h1{
+  margin-top:70px;
+  text-align:center;
+}
+h3{
+  margin-top:10px;
+}
+
+.box1{
+  border-radius:5%; 
+  display:inline-block;
+  position:absolute;
+  top:30%;
+  left:15%;
+  transform:translateX(-50%,-50%);
+  width:20%;
+  min-height:20%;
+  background-image:url(../images/8.jpg);
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+}
+
+.box2{
+  border-radius:5%; 
+  display:inline-block;
+  background-color:#ffff;
+  position:absolute;
+  top:30%;
+  left:60%;
+  transform:translateX(-50%,-50%);
+  width:20%;
+  min-height:20%;
+  
+}
+
+.box3{ 
+  border-radius:5%;  
+  background-color:#ffff;
+  position:absolute;
+  top:70%;
+  left:15%;
+  transform:translateX(-50%,-50%);
+  width:20%;
+  min-height:20%;
+  
+}
+
+.box4{
+  border-radius:5%; 
+  display:inline-block;
+  background-color:#ffff;
+  position:absolute;
+  top:70%;
+  left:60%;
+  transform:translateX(-50%,-50%);
+  width:20%;
+  min-height:20%;
+  background-image:url(../images/7.jpg);
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+}
+
+.box5{
+  border-radius:5%; 
+  display:inline-block;
+  background-color:#ffff;
+  position:absolute;
+  top:70%;
+  left:38%;
+  transform:translateX(-50%,-50%);
+  width:20%;
+  min-height:20%;
+  background-image:url(../images/7.jpg);
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+}
+.box6{
+  border-radius:5%; 
+  display:inline-block;
+  background-color:#ffff;
+  position:absolute;
+  top:30%;
+  left:38%;
+  transform:translateX(-50%,-50%);
+  width:20%;
+  min-height:20%;
+  background-image:url(../images/7.jpg);
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+}
+h1{
+    text-align:center;
+    padding-top:10px;
+    font-family:"Raleway";
+}
+
+p{
+    font-family:"Raleway";
+    text-align:justify;
+    font-size:2vh;
+    padding-top:15px;
+    margin-left:10%;
+    margin-right:10%;
+    overflow:hidden;
+    word-wrap:break-word;
+    padding: 10px 20px;
+
+}

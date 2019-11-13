@@ -1,0 +1,79 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+*{margin:0; padding:0;}
+
+body{
+    background-color:#FFF9F5;
+    height:1000px;
+}
+ h1{
+    font-family:'Raleway';
+    margin-top:100px;
+    text-align:center;
+}
+h2{
+    padding:50px 0px 0px 0px;
+    font-family:'Raleway';
+    text-align:center;
+}
+
+.footer{
+    visibility: hidden;
+}
+.footer ul{
+    background-color:black;
+    
+}
+
+.footer a{
+    display:block;
+    text-align:center;
+}
+#name{
+position:absolute;
+top:35%;
+left:42%;
+width:16%;
+height:5%;
+}
+input[type="text"]
+{
+    font-size:24px;
+}
+#surname{
+    position:absolute;
+    top:45%;
+    transform: translateX(-50%,-50%);
+    left:42%;
+    width:16%;
+    height:5%;
+}
+#email{
+    position:absolute;
+    top:55%;
+    left:42%;
+    width:16%;
+    height:5%;
+    
+}
+#phone{
+    position:absolute;
+    top:65%;
+    left:42%;
+    width:16%;
+    height:5%;
+}
+#message{
+    position:absolute;
+    top:75%;
+    left:30%;
+    width:40%;
+    height:30%;
+}
+
+#submit{
+    position:absolute:
+}
